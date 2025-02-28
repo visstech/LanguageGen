@@ -1,9 +1,12 @@
 import streamlit as st
+import os
+os.system("pip install deep-translator")
+
 from deep_translator import GoogleTranslator
 from gtts import gTTS
 from PIL import Image, ImageDraw, ImageFont
 from moviepy.editor import ImageClip, AudioFileClip, CompositeVideoClip
-import os
+
 
 # ✅ Fix: More reliable translation
 def translate_text(text, target_lang): #="ta"):
