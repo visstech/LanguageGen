@@ -1,1 +1,5 @@
-pip install deep-translator gtts pillow moviepy streamlit os-sys deep-translator
+pip install deep-translator
+gtts
+pillow
+moviepy
+streamlit
