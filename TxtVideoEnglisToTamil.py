@@ -1,7 +1,5 @@
 import streamlit as st
 import os
-os.system("pip install deep-translator")
-
 from deep_translator import GoogleTranslator
 from gtts import gTTS
 from PIL import Image, ImageDraw, ImageFont
